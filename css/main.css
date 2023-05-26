@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-    max-width: 1240px;
+    max-width: 1340px;
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 20px;
@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6,p, html, body {
 .header_container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 222px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -75,6 +75,11 @@ h1,h2,h3,h4,h5,h6,p, html, body {
     color: #FFFFFF;
 }
 
+.header_img {
+    width: 50px;
+    height: 50px;
+}
+
 .contacts {
     background: #000000;
 }
@@ -82,7 +87,7 @@ h1,h2,h3,h4,h5,h6,p, html, body {
 .contact_container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 20px;
     padding: 20px;
     color: #FFFFFF;
 }
@@ -149,6 +154,7 @@ h1,h2,h3,h4,h5,h6,p, html, body {
     padding-bottom: 20px;
     display: flex;
     gap: 30px;
+    padding-left: 30px;
 }
 
 .gid_heading { 
@@ -236,3 +242,675 @@ h1,h2,h3,h4,h5,h6,p, html, body {
     color: #FFFFFF;
     margin-top: 5px;
 }
+
+.vero_main--img {
+    margin-left: 100px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    width: 500px;  
+    height: 400px;
+}
+
+.vero_main--img:hover {
+    transform: scale(1.07);
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        max-width: 940px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header_container {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        gap: 95px;
+    }
+    
+    .header_code {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    
+    .header_t-heading {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .header_img {
+        width: 100px;
+        height: 100px;
+    }    
+    
+    .contacts {
+        background: #000000;
+    }
+    
+    .contact_container {
+        padding: 15px;
+        gap: 8px;
+    }
+    
+    .contact_heading {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .contact_code {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .vero_container {
+        padding-bottom: 15px;
+    }
+    
+    .vero_main-img {
+        width: 350px;
+        height: 350px;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    
+    .vero_main-img:first-child {
+        width: 400px;
+        height: 300px;
+        margin-top: 10px;
+    }
+    
+    .vero_main-img:hover {
+        transform: scale(1.07);
+    }
+    
+    .vero_text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .vero-textt {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    
+    .gid {
+        background: #212526;
+        margin-bottom: 20px;
+    }
+    
+    .gid_container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        gap: 20px;
+    }
+    
+    .gid_heading { 
+        font-size: 17px;
+        line-height: 20px;
+    }
+    
+    .gid_text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .us_container {
+        max-width: 1000px;
+        padding: 20px 50px;
+        gap: 40px;
+    }
+    
+    .us_img {
+        width: 350px;
+        height: 200px;
+    }
+    
+    .us_heading {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    
+    .us_text {
+        font-size: 15px;
+        line-height: 20px;
+        max-width: 500px;
+        margin-bottom: 15px;
+    }
+    
+    .footer {
+        padding: 5px 0;
+    }
+    
+    .footer_link {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .footer_img {
+        border-radius: 60%;
+        width: 100px;
+        height: 100px;
+        margin-top: -12px;
+    }
+    
+    .footer_phone {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .vero_main--img {
+        width: 400px;  
+        height: 300px;
+    }
+ }
+
+ @media screen and (max-width: 600px) {
+    .container {
+        max-width: 640px;
+    }
+
+    .header_code {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    
+    .header_t-heading {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .header_container {
+        gap: 30px;
+    }
+
+    .header_img {
+        width: 90px;
+        height: 90px;
+    }   
+    
+    .contact_container {
+        padding: 12px;
+        gap: 3px;
+    }
+    
+    .contact_heading {
+        font-size: 14px;
+        line-height: 15px;
+        margin-right: 5px;
+    }
+
+    .contact_code {
+        font-size: 12.5px;
+        line-height: 14px;
+    }
+    
+    .vero_container {
+        padding-bottom: 15px;
+        gap: 25px;
+    }
+    
+    .vero_main-img {
+        width: 290px;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .vero_main--img {
+        width: 250px;
+        height: 200px;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    
+    .vero_main-img:first-child {
+        width: 290px;
+        height: 355px;
+        margin-top: 15px;
+    }
+    
+    .vero_text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .vero-textt {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    
+    .gid_container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        gap: 15px;
+    }
+
+    .gid_wraper {
+        display: none;
+    }
+    
+    .gid_text {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    
+    .us_container {
+        max-width: 1000px;
+        padding: 20px 50px;
+        gap: 40px;
+    }
+    
+    .us_img {
+        width: 250px;
+        height: 150px;
+    }
+
+    .us_heading {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .us_text {
+        font-size: 13px;
+        line-height: 14px;
+        margin-bottom: 15px;
+    }
+
+    .us_link {
+        padding: 5px 7px;
+        font-size: 15px;
+    }
+    
+    .footer {
+        padding: 5px 0;
+    }
+    
+    .footer_link {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .footer_img {
+        border-radius: 60%;
+        width: 100px;
+        height: 100px;
+        margin-top: -12px;
+    }
+    
+    .footer_phone {
+        font-size: 14px;
+        line-height: 18px;
+    }
+ }
+
+ @media screen and (max-width: 500px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .header_code {
+        font-size: 13px;
+        line-height: 14px;
+    }
+
+    .header_container {
+        gap: 15px;
+        padding-bottom: 8px;
+    }
+
+    .header_img {
+        width: 80px;
+        height: 80px;
+    }   
+    
+    .contact_container {
+        padding: 10px;
+        gap: 3px;
+    }
+    
+    .contact_heading {
+        font-size: 13px;
+        line-height: 14px;
+        margin-right: 3px;
+    }
+
+    .contact_code {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    
+    .vero_container {
+        padding-bottom: 15px;
+        gap: 20px;
+    }
+    
+    .vero_main-img {
+        width: 290px;
+        height: 250px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .vero_main--img {
+        width: 175px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    
+    .vero_main-img:first-child {
+        width: 200px;
+        height: 255px;
+        margin-top: 5px;
+    }
+    
+    .vero_text {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    
+    .vero-textt {
+        font-size: 11px;
+        line-height: 12px;
+    }
+    
+    .gid_container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        gap: 10px;
+    }
+
+    .gid_wraper {
+        display: none;
+    }
+
+    .gid_heading {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    
+    .gid_text {
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    .example {
+        display: block;
+    }
+    
+    .us_container {
+        max-width: 600px;
+        padding: 20px 50px;
+        gap: 40px;
+    }
+    
+    .us_img {
+        width: 220px;
+        height: 120px;
+    }
+    
+    .us_heading {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
+    .us_text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .us_link {
+        padding: 5px 7px;
+        font-size: 12px;
+    }
+    
+    .footer_link {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .footer_img {
+        width: 80px;
+        height: 80px;
+        margin-top: -25px;
+    }
+    
+    .footer_phone {
+        font-size: 13px;
+        line-height: 15px;
+    }
+ }
+
+ @media screen and (max-width: 400px) {
+    .container {
+        max-width: 640px;
+    }
+
+    .link_img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header_code {
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+    .header_t-heading {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .header_container {
+        gap: 8px;
+    }
+
+    .header_img {
+        width: 60px;
+        height: 60px;
+    }   
+    
+    .contact_container {
+        padding-left: 0;
+    }
+    
+    .contact_heading {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .contact_none {
+        display: none;
+    }
+
+    .contact_code {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 11px;
+    }
+    
+    .vero_container {
+        gap: 15px;
+    }
+    
+    .vero_main-img {
+        width: 180px;
+        height: 210px;
+    }
+
+    .vero_main--img {
+        width: 175px;
+        height: 220px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    
+    .vero_main-img:first-child {
+        width: 165px;
+        height: 255px;
+    }
+
+    .br {
+        display: none;
+    }
+    
+    .vero_text {
+        font-size: 12px;
+        line-height: 13px;
+    }
+    
+    .vero-textt {
+        font-size: 11px;
+        line-height: 12px;
+    }
+    
+    .gid_container {
+        padding-left: 0;
+    }
+
+    .gid_heading {
+        font-size: 12px;
+        line-height: 13px;
+    }
+    
+    .gid_text {
+        font-size: 11px;
+        line-height: 11px;
+    }
+    
+    .us_container {
+        max-width: 640px;
+        padding: 10px 15px;
+        gap: 20px;
+        margin-top: -15px;
+    }
+    
+    .us_img {
+        width: 180px;
+        height: 120px;
+    }
+    
+    .us_heading {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
+    .us_text {
+        font-size: 11px;
+        line-height: 12px;
+        margin-bottom: 5px; 
+    }
+
+    .us_link {
+        padding: 5px 7px;
+        font-size: 12px;
+    }
+
+    .footer_container {
+        padding-left: 0;
+    }
+    
+    .footer_link {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .footer_img {
+        width: 80px;
+        height: 80px;
+        margin-top: -25px;
+    }
+    
+    .footer_phone {
+        font-size: 13px;
+        line-height: 15px;
+    }
+ }
+
+ @media screen and (max-width: 350px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .link_img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .header_code {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .header_t-heading {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .header_container {
+        gap: 8px;
+    }
+
+    .header_img {
+        width: 50px;
+        height: 50px;
+    } 
+
+    .contact_code {
+        font-weight: 400;
+        font-size: 9.3px;
+    }
+    
+    .vero_container {
+        gap: 10px;
+    }
+    
+    .vero_main-img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .vero_main--img {
+        width: 155px;
+        height: 200px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .br_ok {
+        display: none;
+    }
+
+    .vero-textt {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    
+    .gid_text {
+        font-size: 10px;
+        line-height: 11px;
+    }
+    
+    .us_container {
+        padding: 15px 15px;
+    }
+    
+    .us_img {
+        width: 150px;
+        height: 100px;
+    }
+    
+    
+    .footer_img {
+        width: 60px;
+        height: 60px;
+    }
+ }  
